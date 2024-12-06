@@ -2,7 +2,7 @@ import React from 'react';
 import { FaCaretDown, FaSearch } from "react-icons/fa";
 import { FaShoppingCart } from "react-icons/fa";
 import DarkMode from './DarkMode';
-
+import v2_logo from '../../assets/v2_logo_white.png'
 
 const menuLinks = [
     {
@@ -52,8 +52,8 @@ const Navbar = ({handleOrderPopup}) => {
                 <div className='container flex items-center justify-between'>
                     {/* logo and links section */}
                     <div className='flex items-center gap-4'>
-                        <a className='text-primary font-semibold tracking-widest  text-2xl  uppercase sm:text-3xl' >
-                            Ecommerce
+                        <a className='text-primary font-semibold tracking-widest flex gap-2 text-2xl  uppercase sm:text-3xl' >
+                            <img className='w-12' src={v2_logo} alt="" /> Ecom
                         </a>
                         {/* Menu items */}
                         <div className='hidden lg:block'>

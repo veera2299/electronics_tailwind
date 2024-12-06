@@ -6,6 +6,7 @@ import {
     FaLinkedin,
     FaLocationArrow,
 } from "react-icons/fa6";
+import v2_logo from '../../assets/v2_logo_white.png'
 
 const FooterLinks = [
     {
@@ -36,16 +37,17 @@ const Footer = () => {
                         <a
                             className='text-primary text-2xl 
                             font-semibold uppercase tracking-widest 
-                            sm:text-3xl'
-                            href="#">Ecommerce</a>
-                        <p className='text-gray-600
-                                   dark:text-white/70 pt-3 lg:pr-24'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, ullam?</p>
+                            sm:text-3xl flex gap-3'
+                            href="#"> <img className='w-12' src={v2_logo} alt="" />Ecom</a>
+                        <p className='text-gray-600 dark:text-white/70 pt-3 lg:pr-24'>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, ullam?</p>
                         <p className='text-gray-500 mt-4'>Made with love by the coding journey</p>
                         <a href=""
                             className='inline-block
                                    bg-primary/90 text-sm text-white 
                                       rounded-full py-2 px-4 mt-4'>
-                            Visit our Instagram Page</a>
+                            Visit our Instagram Page
+                        </a>
 
                     </div>
                     {/* Footer links */}
@@ -85,7 +87,7 @@ const Footer = () => {
                                 </div>
                                 <div className='flex items-center gap-3 mt-6'>
                                     <FaMobileAlt />
-                                    <p>+91 987654321</p>
+                                    <p>+91 9542303831</p>
                                 </div>
                                 <div className='flex  items-center gap-3 mt-6'>
                                     <a href="#"><FaInstagram className='text-3xl hover:text-primary duration-300' /></a>

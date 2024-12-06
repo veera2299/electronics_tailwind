@@ -7,10 +7,11 @@ import Button from '../Shared/Button';
 const HeroData = [
     {
         id: 1,
-        img: Image1,
+        img: Image3,
         subtitle: "Beats Solo",
-        title: "Wireless",
-        title2: "Headphone",
+        title: "Branded",
+        title2: "Laptops",
+       
     },
     {
         id: 2,
@@ -21,10 +22,10 @@ const HeroData = [
     },
     {
         id: 3,
-        img: Image3,
+        img: Image1,
         subtitle: "Beats Solo",
-        title: "Branded",
-        title2: "Laptops",
+        title: "Wireless",
+        title2: "Headphone",
     },
 ];
 
